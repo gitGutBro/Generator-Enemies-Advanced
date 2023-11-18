@@ -3,13 +3,17 @@ using UnityEngine;
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private Vector3 _targetPosition;
+
+    private Vector2 _targetPosition;
+
+    public void SetTargetPosition(Vector2 targetPosition)
+        => _targetPosition = targetPosition;
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
 
-        if (transform.position == _targetPosition)
+        if ((Vector2)transform.position == _targetPosition)
             Destroy(gameObject);
     }
 }
