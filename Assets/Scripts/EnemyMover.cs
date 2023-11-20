@@ -4,16 +4,16 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private Vector2 _targetPosition;
+    private Transform _targetPosition;
 
-    public void SetTargetPosition(Vector2 targetPosition)
+    public void SetTargetPosition(Transform targetPosition)
         => _targetPosition = targetPosition;
 
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, _targetPosition.position, _speed * Time.deltaTime);
 
-        if ((Vector2)transform.position == _targetPosition)
+        if (transform.position == _targetPosition.position)
             Destroy(gameObject);
     }
 }

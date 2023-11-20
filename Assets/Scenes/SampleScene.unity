@@ -183,7 +183,7 @@ Transform:
   m_GameObject: {fileID: 78049081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.8, y: 2.45, z: 0.014345389}
+  m_LocalPosition: {x: -6.15, y: 2.45, z: 0.014345389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -202,6 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: -8915744471882045243, guid: 6b3213a1383bcf74bbb51ac38a2ee677, type: 3}
+  _targetPosition: {x: 3.47, y: -1.070224}
   _timeInSeconds: 1
 --- !u!1 &519420028
 GameObject:
@@ -320,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 1175717617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4493437, y: -1.0702244, z: 0}
+  m_LocalPosition: {x: 3.47, y: -1.0702244, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -352,7 +353,7 @@ Transform:
   m_GameObject: {fileID: 1650679306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.229344, y: 2.5897756, z: -0.04524517}
+  m_LocalPosition: {x: 1.68, y: 2.44, z: -0.04524517}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -371,6 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: -1321183493298073879, guid: 566dbc773fc9619428844902186ae923, type: 3}
+  _targetPosition: {x: -4.04, y: -1.200224}
   _timeInSeconds: 2
 --- !u!1 &1657877346
 GameObject:
@@ -397,7 +399,7 @@ Transform:
   m_GameObject: {fileID: 1657877346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7306561, y: 0.19022441, z: 0.04524517}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -431,7 +433,7 @@ Transform:
   m_GameObject: {fileID: 1769121340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.91, y: 4.04, z: 0}
+  m_LocalPosition: {x: -0.62, y: 4.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -462,7 +464,7 @@ Transform:
   m_GameObject: {fileID: 1970451551}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.8206563, y: -1.2002244, z: 0}
+  m_LocalPosition: {x: -4.04, y: -1.2002244, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -513,6 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: 2423946987278832684, guid: a8736dcd1b80c2d4d834c9aa9bb2f272, type: 3}
+  _targetPosition: {x: -0.62, y: 4.04}
   _timeInSeconds: 1.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
