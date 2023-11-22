@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: -8915744471882045243, guid: 6b3213a1383bcf74bbb51ac38a2ee677, type: 3}
-  _targetPosition: {x: 3.47, y: -1.070224}
+  _targetPosition: {fileID: 1175717618}
   _timeInSeconds: 1
 --- !u!1 &519420028
 GameObject:
@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: -1321183493298073879, guid: 566dbc773fc9619428844902186ae923, type: 3}
-  _targetPosition: {x: -4.04, y: -1.200224}
+  _targetPosition: {fileID: 1970451552}
   _timeInSeconds: 2
 --- !u!1 &1657877346
 GameObject:
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyTemplate: {fileID: 2423946987278832684, guid: a8736dcd1b80c2d4d834c9aa9bb2f272, type: 3}
-  _targetPosition: {x: -0.62, y: 4.04}
+  _targetPosition: {fileID: 1769121341}
   _timeInSeconds: 1.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
